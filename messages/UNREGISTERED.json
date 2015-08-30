@@ -1,0 +1,15 @@
+{
+  "code": 67,
+  "name": "UNREGISTERED",
+  "roles": [
+    "callee"
+  ],
+  "items": [
+    {
+      "title": "Request",
+      "type": "integer"
+    }
+  ],
+  "minItems": 1,
+  "maxItems": 1
+}

@@ -1,0 +1,15 @@
+{
+  "code": 35,
+  "name": "UNSUBSCRIBED",
+  "roles": [
+    "subscriber"
+  ],
+  "items": [
+    {
+      "title": "Request",
+      "type": "integer"
+    }
+  ],
+  "minItems": 1,
+  "maxItems": 1
+}

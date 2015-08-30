@@ -1,0 +1,19 @@
+{
+  "code": 4,
+  "name": "CHALLENGE",
+  "roles": [
+    "session-client"
+  ],
+  "items": [
+    {
+      "title": "AuthMethod",
+      "type": "string"
+    },
+    {
+      "title": "Extra",
+      "type": "object"
+    }
+  ],
+  "minItems": 2,
+  "maxItems": 2
+}

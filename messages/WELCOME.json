@@ -1,0 +1,136 @@
+{
+  "code": 2,
+  "name": "WELCOME",
+  "roles": [
+    "session-client"
+  ],
+  "items": [
+    {
+      "title": "Session",
+      "type": "integer"
+    },
+    {
+      "title": "Details",
+      "type": "object",
+      "properties": {
+        "authrole": {
+          "type": [
+            "string"
+          ]
+        },
+        "authmethod": {
+          "type": [
+            "string"
+          ]
+        },
+        "authprovider": {
+          "type": [
+            "string"
+          ]
+        },
+        "roles": {
+          "type": [
+            "object"
+          ],
+          "properties": {
+            "dealer": {
+              "type": [
+                "object"
+              ],
+              "properties": {
+                "features": {
+                  "type": [
+                    "object"
+                  ],
+                  "properties": {
+                    "pattern_based_registration": {
+                      "type": [
+                        "boolean"
+                      ]
+                    },
+                    "registration_revocation": {
+                      "type": [
+                        "boolean"
+                      ]
+                    },
+                    "shared_registration": {
+                      "type": [
+                        "boolean"
+                      ]
+                    },
+                    "caller_identification": {
+                      "type": [
+                        "boolean"
+                      ]
+                    },
+                    "registration_meta_api": {
+                      "type": [
+                        "boolean"
+                      ]
+                    },
+                    "progressive_call_results": {
+                      "type": [
+                        "boolean"
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            "broker": {
+              "type": [
+                "object"
+              ],
+              "properties": {
+                "features": {
+                  "type": [
+                    "object"
+                  ],
+                  "properties": {
+                    "publisher_identification": {
+                      "type": [
+                        "boolean"
+                      ]
+                    },
+                    "pattern_based_subscription": {
+                      "type": [
+                        "boolean"
+                      ]
+                    },
+                    "subscription_meta_api": {
+                      "type": [
+                        "boolean"
+                      ]
+                    },
+                    "subscription_revocation": {
+                      "type": [
+                        "boolean"
+                      ]
+                    },
+                    "publisher_exclusion": {
+                      "type": [
+                        "boolean"
+                      ]
+                    },
+                    "subscriber_blackwhite_listing": {
+                      "type": [
+                        "boolean"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "authid": {
+          "type": [
+            "string"
+          ]
+        }
+      }
+    }
+  ],
+  "minItems": 2,
+  "maxItems": 2
+}

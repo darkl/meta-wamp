@@ -1,0 +1,19 @@
+{
+  "code": 5,
+  "name": "AUTHENTICATE",
+  "roles": [
+    "session-router"
+  ],
+  "items": [
+    {
+      "title": "Signature",
+      "type": "string"
+    },
+    {
+      "title": "Extra",
+      "type": "object"
+    }
+  ],
+  "minItems": 2,
+  "maxItems": 2
+}

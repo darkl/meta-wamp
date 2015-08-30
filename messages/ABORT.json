@@ -1,0 +1,28 @@
+{
+  "code": 3,
+  "name": "ABORT",
+  "roles": [
+    "session-router",
+    "session-client"
+  ],
+  "items": [
+    {
+      "title": "Details",
+      "type": "object",
+      "properties": {
+        "message": {
+          "advanced_profile": true,
+          "type": [
+            "string"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Reason",
+      "type": "string"
+    }
+  ],
+  "minItems": 2,
+  "maxItems": 2
+}

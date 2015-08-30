@@ -1,0 +1,19 @@
+{
+  "code": 34,
+  "name": "UNSUBSCRIBE",
+  "roles": [
+    "broker"
+  ],
+  "items": [
+    {
+      "title": "Request",
+      "type": "integer"
+    },
+    {
+      "title": "Subscription",
+      "type": "integer"
+    }
+  ],
+  "minItems": 2,
+  "maxItems": 2
+}

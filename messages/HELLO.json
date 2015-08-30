@@ -1,0 +1,134 @@
+{
+  "code": 1,
+  "name": "HELLO",
+  "roles": [
+    "session-router"
+  ],
+  "items": [
+    {
+      "title": "Realm",
+      "type": "string"
+    },
+    {
+      "title": "Details",
+      "type": "object",
+      "properties": {
+        "roles": {
+          "type": [
+            "object"
+          ],
+          "properties": {
+            "caller": {
+              "type": [
+                "object"
+              ],
+              "properties": {
+                "features": {
+                  "type": [
+                    "object"
+                  ],
+                  "properties": {
+                    "caller_identification": {
+                      "type": [
+                        "boolean"
+                      ]
+                    },
+                    "progressive_call_results": {
+                      "type": [
+                        "boolean"
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            "callee": {
+              "type": [
+                "object"
+              ],
+              "properties": {
+                "features": {
+                  "type": [
+                    "object"
+                  ],
+                  "properties": {
+                    "progressive_call_results": {
+                      "type": [
+                        "boolean"
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            "publisher": {
+              "type": [
+                "object"
+              ],
+              "properties": {
+                "features": {
+                  "type": [
+                    "object"
+                  ],
+                  "properties": {
+                    "subscriber_blackwhite_listing": {
+                      "type": [
+                        "boolean"
+                      ]
+                    },
+                    "publisher_exclusion": {
+                      "type": [
+                        "boolean"
+                      ]
+                    },
+                    "publisher_identification": {
+                      "type": [
+                        "boolean"
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            "subscriber": {
+              "type": [
+                "object"
+              ],
+              "properties": {
+                "features": {
+                  "type": [
+                    "object"
+                  ],
+                  "properties": {
+                    "publisher_identification": {
+                      "type": [
+                        "boolean"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "authmethods": {
+          "type": [
+            "array"
+          ],
+          "items": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "authid": {
+          "type": [
+            "string"
+          ]
+        }
+      }
+    }
+  ],
+  "minItems": 2,
+  "maxItems": 2
+}

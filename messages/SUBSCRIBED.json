@@ -1,0 +1,19 @@
+{
+  "code": 33,
+  "name": "SUBSCRIBED",
+  "roles": [
+    "subscriber"
+  ],
+  "items": [
+    {
+      "title": "Request",
+      "type": "integer"
+    },
+    {
+      "title": "Subscription",
+      "type": "integer"
+    }
+  ],
+  "minItems": 2,
+  "maxItems": 2
+}

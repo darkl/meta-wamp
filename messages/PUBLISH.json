@@ -1,0 +1,78 @@
+{
+  "code": 16,
+  "name": "PUBLISH",
+  "roles": [
+    "broker"
+  ],
+  "items": [
+    {
+      "title": "Request",
+      "type": "integer"
+    },
+    {
+      "title": "Options",
+      "type": "object",
+      "properties": {
+        "acknowledge": {
+          "type": [
+            "boolean"
+          ]
+        },
+        "exclude_me": {
+          "advanced_profile": true,
+          "type": [
+            "boolean"
+          ]
+        },
+        "exclude": {
+          "advanced_profile": true,
+          "type": [
+            "array"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        },
+        "eligible": {
+          "advanced_profile": true,
+          "type": [
+            "array"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        },
+        "disclose_me": {
+          "advanced_profile": true,
+          "type": [
+            "boolean"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Topic",
+      "type": "string"
+    },
+    {
+      "title": "Arguments",
+      "type": "array",
+      "items": {
+        "type": [
+          "object"
+        ]
+      }
+    },
+    {
+      "title": "ArgumentsKw",
+      "type": "object",
+      "additionalProperties": {
+        "type": [
+          "object"
+        ]
+      }
+    }
+  ],
+  "minItems": 3,
+  "maxItems": 5
+}

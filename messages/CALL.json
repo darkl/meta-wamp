@@ -1,0 +1,61 @@
+{
+  "code": 48,
+  "name": "CALL",
+  "roles": [
+    "dealer"
+  ],
+  "items": [
+    {
+      "title": "Request",
+      "type": "integer"
+    },
+    {
+      "title": "Options",
+      "type": "object",
+      "properties": {
+        "timeout": {
+          "advanced_profile": true,
+          "type": [
+            "integer"
+          ]
+        },
+        "receive_progress": {
+          "advanced_profile": true,
+          "type": [
+            "boolean"
+          ]
+        },
+        "disclose_me": {
+          "advanced_profile": true,
+          "type": [
+            "boolean"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Procedure",
+      "type": "string"
+    },
+    {
+      "title": "Arguments",
+      "type": "array",
+      "items": {
+        "type": [
+          "object"
+        ]
+      }
+    },
+    {
+      "title": "ArgumentsKw",
+      "type": "object",
+      "additionalProperties": {
+        "type": [
+          "object"
+        ]
+      }
+    }
+  ],
+  "minItems": 3,
+  "maxItems": 5
+}

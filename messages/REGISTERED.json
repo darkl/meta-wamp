@@ -1,0 +1,19 @@
+{
+  "code": 65,
+  "name": "REGISTERED",
+  "roles": [
+    "callee"
+  ],
+  "items": [
+    {
+      "title": "Request",
+      "type": "integer"
+    },
+    {
+      "title": "Registration",
+      "type": "integer"
+    }
+  ],
+  "minItems": 2,
+  "maxItems": 2
+}

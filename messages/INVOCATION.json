@@ -1,0 +1,67 @@
+{
+  "code": 68,
+  "name": "INVOCATION",
+  "roles": [
+    "callee"
+  ],
+  "items": [
+    {
+      "title": "Request",
+      "type": "integer"
+    },
+    {
+      "title": "Registration",
+      "type": "integer"
+    },
+    {
+      "title": "Details",
+      "type": "object",
+      "properties": {
+        "timeout": {
+          "advanced_profile": true,
+          "type": [
+            "boolean"
+          ]
+        },
+        "receive_progress": {
+          "advanced_profile": true,
+          "type": [
+            "boolean"
+          ]
+        },
+        "caller": {
+          "advanced_profile": true,
+          "type": [
+            "integer"
+          ]
+        },
+        "procedure": {
+          "advanced_profile": true,
+          "type": [
+            "string"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Arguments",
+      "type": "array",
+      "items": {
+        "type": [
+          "object"
+        ]
+      }
+    },
+    {
+      "title": "ArgumentsKw",
+      "type": "object",
+      "additionalProperties": {
+        "type": [
+          "object"
+        ]
+      }
+    }
+  ],
+  "minItems": 3,
+  "maxItems": 5
+}

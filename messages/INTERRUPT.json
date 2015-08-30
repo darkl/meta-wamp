@@ -1,0 +1,19 @@
+{
+  "code": 69,
+  "name": "INTERRUPT",
+  "roles": [
+    "callee"
+  ],
+  "items": [
+    {
+      "title": "Request",
+      "type": "integer"
+    },
+    {
+      "title": "Options",
+      "type": "object"
+    }
+  ],
+  "minItems": 2,
+  "maxItems": 2
+}

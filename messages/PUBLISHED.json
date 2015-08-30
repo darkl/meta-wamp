@@ -1,0 +1,19 @@
+{
+  "code": 17,
+  "name": "PUBLISHED",
+  "roles": [
+    "publisher"
+  ],
+  "items": [
+    {
+      "title": "Request",
+      "type": "integer"
+    },
+    {
+      "title": "Publication",
+      "type": "integer"
+    }
+  ],
+  "minItems": 2,
+  "maxItems": 2
+}

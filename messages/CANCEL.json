@@ -1,0 +1,19 @@
+{
+  "code": 49,
+  "name": "CANCEL",
+  "roles": [
+    "dealer"
+  ],
+  "items": [
+    {
+      "title": "Request",
+      "type": "integer"
+    },
+    {
+      "title": "Options",
+      "type": "object"
+    }
+  ],
+  "minItems": 2,
+  "maxItems": 2
+}

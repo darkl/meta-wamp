@@ -1,0 +1,31 @@
+{
+  "code": 32,
+  "name": "SUBSCRIBE",
+  "roles": [
+    "broker"
+  ],
+  "items": [
+    {
+      "title": "Request",
+      "type": "integer"
+    },
+    {
+      "title": "Options",
+      "type": "object",
+      "properties": {
+        "match": {
+          "advanced_profile": true,
+          "type": [
+            "string"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Topic",
+      "type": "string"
+    }
+  ],
+  "minItems": 3,
+  "maxItems": 3
+}

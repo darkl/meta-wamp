@@ -1,0 +1,19 @@
+{
+  "code": 66,
+  "name": "UNREGISTER",
+  "roles": [
+    "dealer"
+  ],
+  "items": [
+    {
+      "title": "Request",
+      "type": "integer"
+    },
+    {
+      "title": "Registration",
+      "type": "integer"
+    }
+  ],
+  "minItems": 2,
+  "maxItems": 2
+}

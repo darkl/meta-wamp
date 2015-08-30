@@ -1,0 +1,55 @@
+{
+  "code": 36,
+  "name": "EVENT",
+  "roles": [
+    "subscriber"
+  ],
+  "items": [
+    {
+      "title": "Subscription",
+      "type": "integer"
+    },
+    {
+      "title": "Publication",
+      "type": "integer"
+    },
+    {
+      "title": "Details",
+      "type": "object",
+      "properties": {
+        "publisher": {
+          "advanced_profile": true,
+          "type": [
+            "integer"
+          ]
+        },
+        "topic": {
+          "advanced_profile": true,
+          "type": [
+            "string"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Arguments",
+      "type": "array",
+      "items": {
+        "type": [
+          "object"
+        ]
+      }
+    },
+    {
+      "title": "ArgumentsKw",
+      "type": "object",
+      "additionalProperties": {
+        "type": [
+          "object"
+        ]
+      }
+    }
+  ],
+  "minItems": 3,
+  "maxItems": 5
+}

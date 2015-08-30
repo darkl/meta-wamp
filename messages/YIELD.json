@@ -1,0 +1,45 @@
+{
+  "code": 70,
+  "name": "YIELD",
+  "roles": [
+    "dealer"
+  ],
+  "items": [
+    {
+      "title": "Request",
+      "type": "integer"
+    },
+    {
+      "title": "Options",
+      "type": "object",
+      "properties": {
+        "progress": {
+          "advanced_profile": true,
+          "type": [
+            "boolean"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Arguments",
+      "type": "array",
+      "items": {
+        "type": [
+          "object"
+        ]
+      }
+    },
+    {
+      "title": "ArgumentsKw",
+      "type": "object",
+      "additionalProperties": {
+        "type": [
+          "object"
+        ]
+      }
+    }
+  ],
+  "minItems": 2,
+  "maxItems": 4
+}

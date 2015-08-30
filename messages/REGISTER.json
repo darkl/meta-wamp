@@ -1,0 +1,43 @@
+{
+  "code": 64,
+  "name": "REGISTER",
+  "roles": [
+    "dealer"
+  ],
+  "items": [
+    {
+      "title": "Request",
+      "type": "integer"
+    },
+    {
+      "title": "Options",
+      "type": "object",
+      "properties": {
+        "disclose_caller": {
+          "advanced_profile": true,
+          "type": [
+            "boolean"
+          ]
+        },
+        "invoke": {
+          "advanced_profile": true,
+          "type": [
+            "string"
+          ]
+        },
+        "match": {
+          "advanced_profile": true,
+          "type": [
+            "string"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Procedure",
+      "type": "string"
+    }
+  ],
+  "minItems": 3,
+  "maxItems": 3
+}
