@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "title": "Request",
+      "title": "Type",
       "type": "integer"
     },
     {
